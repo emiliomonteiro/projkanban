@@ -1,12 +1,10 @@
-# Projeto Vite Starter
+# Projeto Kanban
 
 Uma aplicação web moderna construída com Vite, apresentando uma estrutura de projeto limpa e organizada.
 
 ## 🚀 Funcionalidades
 
-- JavaScript moderno com módulos ES
-- Servidor de desenvolvimento rápido com Hot Module Replacement (HMR)
-- Builds otimizados para produção
+- JavaScript
 - Estrutura de projeto limpa
 - Arquitetura baseada em componentes
 
@@ -35,8 +33,8 @@ Uma aplicação web moderna construída com Vite, apresentando uma estrutura de 
 
 1. Clone o repositório:
    ```bash
-   git clone [url-do-seu-repositorio]
-   cd [nome-do-seu-projeto]
+   git clone https://github.com/emiliomonteiro/projkanban
+   cd projkanban
    ```
 
 2. Instale as dependências:
@@ -57,16 +55,6 @@ Uma aplicação web moderna construída com Vite, apresentando uma estrutura de 
 ## 📝 Scripts Disponíveis
 
 - `npm run dev` - Inicia o servidor de desenvolvimento
-- `npm run build` - Cria build para produção
-- `npm run preview` - Visualiza o build de produção localmente
-
-## 🏗️ Build
-
-Para criar um build de produção:
-
-```bash
-npm run build
-```
 
 O resultado do build será gerado no diretório `dist`.
 
@@ -96,12 +84,11 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para d
 
 ## 👥 Autores
 
-- Seu Nome - Trabalho inicial
+- Emilio Monteiro
 
 ## 🙏 Agradecimentos
 
 - [Vite](https://vitejs.dev/) - Pela incrível ferramenta de build
-- Todos os contribuidores que ajudaram a moldar este projeto 
 
 
 #To-Do:
