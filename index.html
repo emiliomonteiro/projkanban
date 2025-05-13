@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Activity Tracker</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+  <div id="app">
+    <nav id="sidebar" class="sidebar expanded">
+      <div class="sidebar-header">
+        <div class="app-logo">
+          <span class="material-icons">insights</span>
+          <span class="logo-text">ActivityTracker</span>
+        </div>
+        <button id="collapse-btn" class="collapse-btn">
+          <span class="material-icons">chevron_left</span>
+        </button>
+      </div>
+      <ul class="nav-links">
+        <li data-page="home">
+          <a href="#/home">
+            <span class="material-icons">home</span>
+            <span class="link-text">Home</span>
+          </a>
+        </li>
+        <li data-page="my-projects">
+          <a href="#/my-projects">
+            <span class="material-icons">folder</span>
+            <span class="link-text">My Projects</span>
+          </a>
+        </li>
+        <li data-page="following-projects">
+          <a href="#/following-projects">
+            <span class="material-icons">bookmarks</span>
+            <span class="link-text">Following Projects</span>
+          </a>
+        </li>
+        <li data-page="login">
+          <a href="#/login">
+            <span class="material-icons">login</span>
+            <span class="link-text">Login / Account</span>
+          </a>
+        </li>
+        <li data-page="profile">
+          <a href="#/profile">
+            <span class="material-icons">person</span>
+            <span class="link-text">Profile</span>
+          </a>
+        </li>
+        <li data-page="data-fetch">
+          <a href="#/data-fetch">
+            <span class="material-icons">cloud_download</span>
+            <span class="link-text">Data Fetch</span>
+          </a>
+        </li>
+      </ul>
+      <div class="sidebar-footer">
+        <div id="current-user-display" class="current-user">
+          <span class="material-icons">account_circle</span>
+          <span class="user-name">No user selected</span>
+        </div>
+      </div>
+    </nav>
+    <main class="content">
+      <header class="top-bar">
+        <div class="page-title">
+          <h1 id="page-title">Home</h1>
+        </div>
+        <div class="user-controls">
+          <select id="user-select" class="user-select">
+            <option value="">Select a user</option>
+          </select>
+        </div>
+      </header>
+      <div id="main-content" class="main-content">
+        <!-- Page content will be loaded here -->
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
