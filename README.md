@@ -92,6 +92,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para d
 
 
 #To-Do:
+
 Tornar e-mail do usuario em id único
 Criar campo de senha e exigir validação no momento da troca de usuário
 Ao fazer o logout do usuário, atualizar a página e exigir um novo login ou criação de usuário
